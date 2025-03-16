@@ -5,7 +5,7 @@ const withNextIntlPlugin = withNextIntl('./src/i18n/request.ts');
 
 const nextConfig = {
   images: {
-    domains: ['static.csstats.gg'],
+    domains: ['static.csstats.gg', "i.postimg.cc"],
   },
 };
 
