@@ -1,0 +1,53 @@
+{
+  "Home": {
+    "title": "Estadísticas de CS2",
+    "subtitle": "Sigue tus estadísticas de CS2 en partidas Competitivas y Premier",
+    "signInWithSteam": "Iniciar sesión con Steam",
+    "viewYourStats": "VER TUS ESTADÍSTICAS",
+    "steamBot": {
+      "introducing": "Presentamos",
+      "title": "Steam Bot",
+      "beta": "¡Beta!",
+      "description": "Seguimiento más rápido y notificaciones de partidas",
+      "slotsRemaining": "{count} espacios restantes",
+      "addToFriends": "Agregar a amigos"
+    },
+    "stats": {
+      "gamesProcessed": "partidas procesadas",
+      "playersSeen": "jugadores vistos",
+      "vacBansTracked": "baneos VAC rastreados"
+    },
+    "postMatchAdvancedStats": {
+      "title": "Estadísticas avanzadas posteriores al partido",
+      "description": "Una vez que tu partida haya sido procesada, puedes revisar todas nuestras estadísticas avanzadas de CS2 en el marcador. Tenemos todas las estadísticas básicas, pero también puedes ver quién consiguió las primeras eliminaciones, quién intercambió más que solo skins y quién fue el rey del clutch."
+    },
+    "roundByRoundMatchBreakdown": {
+      "title": "Desglose de partida ronda por ronda",
+      "description": "Ofrecemos detalles detallados de cada ronda, como cómo se ganó la ronda, si hubo un clutch y listas completas de eliminaciones. ¡Es perfecto para encontrar esa ronda en la que tu amigo murió en los primeros 10 segundos!"
+    },
+    "automaticMatchTracking": {
+      "title": "Seguimiento automático de partidas",
+      "description": "¡Ya no necesitas agregar partidas individualmente después de que terminan! Todo lo que tienes que hacer es iniciar sesión con Steam, agregar tu código de autenticación de juego, tal vez agregar una partida si aún no tienes una, y luego agregaremos automáticamente todas tus nuevas partidas de CS2, ayudándote a seguir tu progreso hacia Global Elite."
+    },
+    "detailedMatchHistory": {
+      "title": "Historial de partidas detallado",
+      "description": "CS2 es genial, pero en el juego solo puedes ver tus últimas 8 partidas a menos que hayas descargado la demo, lo que no es muy práctico. Nosotros te permitimos seguir todo tu historial de partidas."
+    },
+    "vacBanTracking": {
+      "title": "Seguimiento de baneos VAC",
+      "description": "Estamos constantemente revisando nuestra base de datos completa en busca de baneos VAC y Overwatch. Cuando los jugadores son baneados, podrás verlos en la pestaña 'Jugaste con' en tu perfil. Incluso hay un filtro especial para mostrar solo a los jugadores con los que has jugado y que han sido baneados."
+    },
+    "trackPersonalProgress": {
+      "title": "Seguimiento del progreso personal",
+      "description": "Después de 1000 horas, a veces solo quieres ver cuánto has mejorado. Puedes revisar los gráficos en tu perfil para ver exactamente eso. Recuerda que a medida que subes de rango, a veces tus estadísticas pueden bajar, pero cuando empiecen a subir de nuevo, ¡podrías estar listo para subir de rango otra vez!"
+    },
+    "eseaIntegration": {
+      "csgostats": "csgostats",
+      "description": "Si quieres jugar contra menos tramposos pero te encantan nuestras estadísticas, ¡ahora potenciamos las páginas de partidas de ESEA!"
+    },
+    "getStarted": {
+      "title": "Comienza ahora",
+      "description": "¡Empieza a seguir tus estadísticas de CS2 ahora mismo, todo lo que tienes que hacer es iniciar sesión con Steam a continuación y te guiaremos en los siguientes pasos!"
+    }
+  }
+}
