@@ -1,9 +1,9 @@
 module.exports = {
-  theme: {
-    extend: {
-      fontFamily: {
-        roboto: ['Roboto', '"Helvetica Neue"', 'sans-serif'],
-      },
-    },
-  },
-};
+	theme: {
+		extend: {
+			fontFamily: {
+				roboto: ['Roboto', '"Helvetica Neue"', 'sans-serif'],
+			},
+		},
+	},
+}

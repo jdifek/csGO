@@ -1,0 +1,66 @@
+{
+	"Home": {
+		"search": "Search...",
+		"title": "CS2 Stats",
+		"subtitle": "Track your CS2 stats in Competitive and Premier matchmaking",
+		"signInWithSteam": "Sign in with Steam",
+		"viewYourStats": "VIEW YOUR STATS",
+		"steamBot": {
+			"introducing": "Introducing",
+			"title": "Steam Bot",
+			"beta": "Beta!",
+			"description": "Faster Tracking & Match Notifications",
+			"slotsRemaining": "${count} slots remaining",
+			"addToFriends": "Add to Friends"
+		},
+		"stats": {
+			"gamesProcessed": "games processed",
+			"playersSeen": "players seen",
+			"vacBansTracked": "vac bans tracked"
+		},
+		"postMatchAdvancedStats": {
+			"title": "Post Match Advanced Stats",
+			"description": "Once your match has been processed you can check out all of our advanced CS2 stats on the scoreboard. We've got all of the base stats, but you can see who was getting those entry frags, who was trading more than just skins and who was the clutch king!"
+		},
+		"roundByRoundMatchBreakdown": {
+			"title": "Round By Round Match Breakdown",
+			"description": "Offering detailed round details, such as how the round was won, if there was a clutch and full kill feeds. It's perfect for helping you find that round your friend died in the first 10 seconds!"
+		},
+		"automaticMatchTracking": {
+			"title": "Automatic match tracking",
+			"description": "No longer do you need to add games individually after they are over! All you have to do is login with Steam, add your game authentication code, maybe add a match if you don't already have one and then we will automatically add all of your new CS2 matches, helping you track your progress to Global Elite."
+		},
+		"detailedMatchHistory": {
+			"title": "Detailed Match History",
+			"description": "CS2 is great, but in-game you're only able to see your past 8 matches unless you downloaded the demo, that's not so great. We let you track your full match history."
+		},
+		"vacBanTracking": {
+			"title": "VAC Ban Tracking",
+			"description": "We're constantly checking our full database for both VAC and Overwatch bans. When players get banned you'll be able to see them on your played with tab in your profile. There's even a special filter to show only players you've played with who have been banned."
+		},
+		"trackPersonalProgress": {
+			"title": "Track Personal Progress",
+			"description": "After 1000 hours, sometimes you just want to see how much you've improved. You can check out the graphs on your profile to see just that. Remember tho as you rank up sometimes your stats will drop, but as they start rising again, you might just be ready to rank up again!"
+		},
+		"eseaIntegration": {
+			"csgostats": "csgostats",
+			"description": "If you want to play vs less cheaters but love our statistics, we now power the ESEA match pages!"
+		},
+		"getStarted": {
+			"title": "Get Started Now",
+			"description": "Start tracking your CS2 stats now, all you've got to do is sign in with Steam below and we'll guide you on the next steps after that!"
+		}
+	},
+	"Footer": {
+		"followUs": "Follow Us!",
+		"description": "csstats.gg is an online service for CS2 stat tracking. Time to start tracking your competitive CS2 match history.",
+		"termsOfUse": "Terms of Use",
+		"privacyPolicy": "Privacy Policy",
+		"privacySettings": "Privacy Settings",
+		"dmcaPolicy": "DMCA Policy",
+		"cs2Stats": "CS2 Stats",
+		"forFeedback": "For feedback contact me at: support(at)csstats(dot)gg.",
+		"poweredBySteam": "Powered by Steam",
+		"bottom": "This site is not affiliated with Valve."
+	}
+}

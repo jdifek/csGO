@@ -1,0 +1,66 @@
+{
+	"Home": {
+		"search": "搜索",
+		"title": "CS2 统计",
+		"subtitle": "跟踪您在竞技和高级匹配中的 CS2 统计数据",
+		"signInWithSteam": "使用 Steam 登录",
+		"viewYourStats": "查看您的统计数据",
+		"steamBot": {
+			"introducing": "推出",
+			"title": "Steam 机器人",
+			"beta": "测试版！",
+			"description": "更快的跟踪和比赛通知",
+			"slotsRemaining": "剩余 {count} 个名额",
+			"addToFriends": "添加为好友"
+		},
+		"stats": {
+			"gamesProcessed": "已处理的游戏",
+			"playersSeen": "已见到的玩家",
+			"vacBansTracked": "已跟踪的 VAC 禁令"
+		},
+		"postMatchAdvancedStats": {
+			"title": "赛后高级统计",
+			"description": "一旦您的比赛处理完成，您可以在记分牌上查看我们所有的 CS2 高级统计数据。我们提供了所有基本统计数据，您还可以看到谁获得了开局杀、谁在交易不仅仅是皮肤以及谁是关键时刻的王者！"
+		},
+		"roundByRoundMatchBreakdown": {
+			"title": "逐回合比赛分解",
+			"description": "提供详细的回合信息，例如回合是如何获胜的、是否出现了关键操作以及完整的击杀信息。这非常适合帮助您找到您朋友在开场10秒内阵亡的那一局！"
+		},
+		"automaticMatchTracking": {
+			"title": "自动比赛跟踪",
+			"description": "您不再需要逐一添加比赛结束后的游戏！只需使用 Steam 登录，添加您的游戏认证码，如果您还没有比赛，可以添加一个，然后我们将自动添加您所有的全新 CS2 比赛，帮助您追踪到全球精英的进度。"
+		},
+		"detailedMatchHistory": {
+			"title": "详细比赛历史",
+			"description": "CS2 很棒，但游戏内您只能看到过去的 8 场比赛，除非您下载了比赛回放，这不太方便。我们让您可以追踪完整的比赛历史。"
+		},
+		"vacBanTracking": {
+			"title": "VAC 禁令跟踪",
+			"description": "我们不断检查我们的完整数据库，查找 VAC 和 Overwatch 禁令。当玩家被禁时，您可以在您的个人资料的“一起玩过的”标签中看到他们。甚至还有一个特殊过滤器，只显示您一起玩过的被禁玩家。"
+		},
+		"trackPersonalProgress": {
+			"title": "跟踪个人进步",
+			"description": "1000小时后，有时您只想看看自己进步了多少。您可以在个人资料中查看图表来确认这一点。请记住，当您升级时，有时您的统计数据会下降，但当它们再次上升时，您可能就准备好再次升级了！"
+		},
+		"eseaIntegration": {
+			"csgostats": "csgostats",
+			"description": "如果您想与更少的作弊者对战，但又喜欢我们的统计数据，我们现在为 ESEA 比赛页面提供支持！"
+		},
+		"getStarted": {
+			"title": "立即开始",
+			"description": "现在开始跟踪您的 CS2 统计数据，您只需在下面使用 Steam 登录，我们将指导您接下来的步骤！"
+		}
+	},
+	"Footer": {
+		"followUs": "关注我们！",
+		"description": "csstats.gg 是一个用于跟踪 CS2 统计数据的在线服务。是时候开始记录您的 CS2 竞技比赛历史了。",
+		"termsOfUse": "使用条款",
+		"privacyPolicy": "隐私政策",
+		"privacySettings": "隐私设置",
+		"dmcaPolicy": "DMCA 政策",
+		"cs2Stats": "CS2 统计",
+		"forFeedback": "如需反馈，请联系我：support(at)csstats(dot)gg。",
+		"poweredBySteam": "由 Steam 提供支持",
+		"bottom": "本网站与 Valve 无关。"
+	}
+}
