@@ -15,8 +15,8 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
   activeTab,
   onTabChange,
 }) => {
-  const [gameMode, setGameMode] = useState("CS2");
-  const [matchType, setMatchType] = useState("5v5");
+  const [gameMode] = useState("CS2");
+  const [matchType] = useState("5v5");
   const [filtersOpen, setFiltersOpen] = useState(false);
 
   const tabs = ["STATS", "GRAPHS", "WEAPONS", "MAPS", "MATCHES", "PLAYED WITH"];

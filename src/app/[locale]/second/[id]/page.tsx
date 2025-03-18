@@ -1,10 +1,8 @@
 import Header from "@/components/Header";
-import ProfileHeader from "@/components/ProfileHeader";
 import { ProfileHeaderWrapper } from "@/components/ProfileHeaderWrapper";
 import { TriangleAlert } from "lucide-react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
-import { useState } from "react";
 
 export async function generateMetadata({
   params: paramsPromise,
