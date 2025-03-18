@@ -4,7 +4,12 @@
 import { useState } from "react";
 import ProfileHeader from "./ProfileHeader";
 
-export function ProfileHeaderWrapper({ nickname, avatarUrl }) {
+interface ProfileHeaderWrapperProps {
+  nickname: string;
+  avatarUrl: string;
+}
+
+export function ProfileHeaderWrapper({ nickname, avatarUrl }: ProfileHeaderWrapperProps) {
   const [activeTab, setActiveTab] = useState("STATS");
   
   const handleTabChange = (tab: string) => {
