@@ -15,6 +15,7 @@ const LANGUAGES = [
 const Header: React.FC = () => {
 	const [selectedLanguage, setSelectedLanguage] = useState(LANGUAGES[0])
 	const [isOpen, setIsOpen] = useState(false)
+	const [searchId, setSearchId] = useState('')
 
 	const t = useTranslations('Home')
 	const router = useRouter()
@@ -35,6 +36,17 @@ const Header: React.FC = () => {
 		})
 	}
 
+	const handleSearch = (event: React.FormEvent) => {
+		event.preventDefault()
+		if (searchId.trim()) {
+			startTransition(() => {
+				const steamId = searchId.trim()
+				const newPath = `/${localActive}/second/${steamId}`
+				router.push(newPath)
+			})
+		}
+	}
+
 	return (
 		<header className='flex flex-col lg:flex-row items-center justify-between gap-3 lg:gap-10 w-full min-h-[60px] lg:h-16 bg-[#1D202F] px-4 sm:px-6 md:px-8 lg:px-12 py-4 lg:py-0'>
 			{/* Логотип */}
@@ -49,14 +61,16 @@ const Header: React.FC = () => {
 			</div>
 
 			{/* Поле поиска */}
-			<div className='relative w-[60%]'>
+			<form onSubmit={handleSearch} className='relative w-[60%]'>
 				<input
 					type='text'
-					className='w-full h-10 bg-[#141621] rounded-3xl text-white text-sm sm:text-base placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-blue-500 pl-10 pr-3'
-					placeholder={t('search')}
+					className='w-full h-10 bg-[#141621] rounded-3xl text-white text-sm placeholder-gray-500 pl-10 pr-3 focus:outline-none focus:ring-2 focus:ring-blue-500'
+					placeholder={t('search') || 'Введите Steam ID'}
+					value={searchId}
+					onChange={e => setSearchId(e.target.value)}
 				/>
 				<Search width={24} height={24} className='absolute top-2 left-2' />
-			</div>
+			</form>
 
 			<div className='flex items-center'>
 				{/* Кастомный селектор языка */}

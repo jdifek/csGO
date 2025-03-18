@@ -51,6 +51,9 @@
 			"description": "Start tracking your CS2 stats now, all you've got to do is sign in with Steam below and we'll guide you on the next steps after that!"
 		}
 	},
+	"Second": {
+		"pleaseRegister": "To see detailed information, please register."
+	},
 	"Footer": {
 		"followUs": "Follow Us!",
 		"description": "csstats.gg is an online service for CS2 stat tracking. Time to start tracking your competitive CS2 match history.",

@@ -51,6 +51,9 @@
 			"description": "现在开始跟踪您的 CS2 统计数据，您只需在下面使用 Steam 登录，我们将指导您接下来的步骤！"
 		}
 	},
+	"Second": {
+		"pleaseRegister": " 要查看详细信息，请注册。"
+	},
 	"Footer": {
 		"followUs": "关注我们！",
 		"description": "csstats.gg 是一个用于跟踪 CS2 统计数据的在线服务。是时候开始记录您的 CS2 竞技比赛历史了。",

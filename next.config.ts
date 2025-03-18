@@ -3,7 +3,12 @@
 import createNextIntlPlugin from 'next-intl/plugin'
 const nextConfig = {
 	images: {
-		domains: ['static.csstats.gg', 'i.postimg.cc', 'flagcdn.com'],
+		domains: [
+			'static.csstats.gg',
+			'i.postimg.cc',
+			'flagcdn.com',
+			'avatars.steamstatic.com',
+		],
 	},
 }
 
