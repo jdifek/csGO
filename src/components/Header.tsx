@@ -36,16 +36,32 @@ const Header: React.FC = () => {
 		})
 	}
 
-	const handleSearch = (event: React.FormEvent) => {
-		event.preventDefault()
-		if (searchId.trim()) {
-			startTransition(() => {
-				const steamId = searchId.trim()
-				const newPath = `/${localActive}/second/${steamId}`
-				router.push(newPath)
-			})
-		}
-	}
+  const handleSearch = (event: React.FormEvent) => {
+    event.preventDefault()
+    if (!searchId.trim()) return
+  
+    // Очистка ID от URL, если вставлена ссылка
+    let steamId = searchId.trim().replace(/^https?:\/\/[^\/]+\/[^\/]+\/[^\/]+\//, '')
+  
+    // Извлекаем 17-значный Steam ID, если есть
+    const steamIdMatch = steamId.match(/(\d{17})$/)
+    if (steamIdMatch) {
+      steamId = steamIdMatch[1]
+    }
+  
+    // Если ID невалидный — не переходим
+    if (!/^\d{17}$/.test(steamId)) {
+      console.error('Invalid Steam ID:', steamId)
+      return
+    }
+  
+    // Редирект на страницу профиля
+    startTransition(() => {
+      const newPath = `/${localActive}/second/${steamId}`
+      router.push(newPath)
+    })
+  }
+  
 
 	return (
 		<header className='flex flex-col lg:flex-row items-center justify-between gap-3 lg:gap-10 w-full min-h-[60px] lg:h-16 bg-[#1D202F] px-4 sm:px-6 md:px-8 lg:px-12 py-4 lg:py-0'>
