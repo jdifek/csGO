@@ -2,7 +2,6 @@ import type { Metadata } from 'next'
 import { Cairo, Geist, Geist_Mono } from 'next/font/google'
 import { notFound } from 'next/navigation'
 import { routing } from '@/i18n/routing'
-import { getMessages } from 'next-intl/server'
 import { hasLocale, NextIntlClientProvider } from 'next-intl'
 import '../globals.css'
 
