@@ -330,7 +330,7 @@ export default function Home() {
 					<ul className='flex flex-wrap justify-center gap-3 text-blue-600 text-xs md:text-[13px] mb-4'>
 						<li>{tFooter('termsOfUse')}</li>
 						<li>{tFooter('privacyPolicy')}</li>
-						<li>{tFooter('descriptprivacySettingsion')}</li>
+						<li>{tFooter('privacySettings')}</li>
 						<li>{tFooter('dmcaPolicy')}</li>
 						<li>{tFooter('cs2Stats')}</li>
 					</ul>
